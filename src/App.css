@@ -1,18 +1,40 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
-.App-header {
-  background-color: #282c34;
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* body {
+  height: 100%;
+  overflow: auto;
+} */
+
+.Line1 {
+  border: 2px solid gray;
+  position: relative;
+  bottom: 200px;
+}
+
+.Line2 {
+  border-left: 4px solid gray;
+  height: 500px;
+  left: 900px;
+  position: relative;
+  bottom: 710px;
+}
+
+.Piechart {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
+  bottom: 210px;
+  left: 980px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  width: 200px;
+  padding: 10px;
 }
